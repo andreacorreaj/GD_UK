@@ -1,0 +1,105 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  
+  "title": {
+    "text": "Industries contribution to GDP",
+    "subtitle": ["% of GVA"],
+    "color": "#122b39E6",
+    "subtitleColor": "#676A86",
+    "anchor": "start",
+    "dx": 24,
+    "fontSize": 14,
+    "subtitleFontSize": 12,
+    "subtitlePadding": 4,
+    "offset": 0
+  },
+  "height": 300,
+  "config": {
+    "font": "Circular Std",
+    "view": {"stroke": "transparent"},
+    "axisX": {
+      "domainColor": "#676A86",
+      "domainOpacity": 0.5,
+      "grid": false,
+      "labelAngle": 0,
+      "labelColor": "#676A86",
+      "labelOpacity": 0.7,
+      "orient": "bottom",
+      "tickColor": "#676A86",
+      "tickCount": 10,
+      "tickOpacity": 0.5,
+      "title": "",
+      "titleAlign": "center",
+      "titleAnchor": "middle",
+      "titleColor": "#676A86",
+      "titleFontSize": 12,
+      "titleOpacity": 0.8,
+      "titleY": -15
+    },
+    "axisY": {
+      "domainColor": "#676A86",
+      "domainOpacity": 0.5,
+      "gridColor": "#676A86",
+      "gridDash": [1, 5],
+      "gridOpacity": 0.5,
+      "labelColor": "#676A86",
+      "labelOpacity": 0.7,
+      "labelPadding": 5,
+      "tickColor": "#676A86",
+      "tickCount": 8,
+      "tickOpacity": 0.5,
+      "ticks": false,
+      "titleAlign": "left",
+      "titleAngle": 0,
+      "titleBaseline": "bottom",
+      "titleColor": "#676A86",
+      "titleFontSize": 12,
+      "titleOpacity": 0.8,
+      "titleX": 0,
+      "titleY": -7
+    }
+  },
+
+  "data": {
+    "values":[
+  {"Sector":"Real estate",	"Value":"12.5"},
+  {"Sector":"Retail and wholesale",	"Value":"10.4"},
+  {"Sector":"Manufacturing",	"Value":"9.4"},
+  {"Sector":"Finance and insurance",	"Value":"9.0"},
+  {"Sector":"Professional and technical", "Value":"8.2"},
+  {"Sector":"Health and social care",	"Value":"7.8"},
+  {"Sector":"IT and communications",	"Value":"6.5"},
+  {"Sector":"Construction",	"Value":"6.2"},
+  {"Sector":"Education",	"Value":"6.0"},
+  {"Sector":"Public admin and defence",	"Value":"5.2"},
+  {"Sector":"Business admin and support",	"Value":"5.0"},
+  {"Sector":"Transport and storage",	"Value":"3.5"},
+  {"Sector":"Accommodation and food",	"Value":"3.2"},
+  {"Sector":"Other services",	"Value":"1.7"},
+  {"Sector":"Utilities",	"Value":"1.7"},
+  {"Sector":"Arts, entertainment and recreation",	"Value":"1.4"},
+  {"Sector":"Agriculture, forestry and fishing",	"Value":"0.9"},
+  {"Sector":"Mining and extractives", "Value":"0.9"}
+    ]
+  },
+  
+"encoding": {
+    "y": {"field": "Sector", "type": "nominal", "sort": "-x",
+      "title":""},
+    "x": {"field": "Value", "type": "quantitative"}
+},
+    "layer": [{
+     "mark": {"type":"bar", "color":"#36b7b4"}
+  }, {
+    "mark": {
+      "type": "text",
+      "align": "left",
+      "baseline": "middle",
+      "dx": 3,
+      "color": "#676A86",
+    },
+    "encoding": {
+      "text": {"field": "Value", "type": "quantitative"}
+    }
+  }]
+    }
