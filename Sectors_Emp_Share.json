@@ -1,0 +1,85 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Employment share by sectors",
+    "subtitle": ["Percentage"],
+    "color": "#122b39E6",
+    "subtitleColor": "#676A86",
+    "anchor": "start",
+    "dx": 24,
+    "fontSize": 14,
+    "subtitleFontSize": 12,
+    "subtitlePadding": 4,
+    "offset": 0
+  },
+  "height": 300,
+  "config": {
+    "font": "Circular Std",
+    "view": {"stroke": "transparent"},
+    "axisX": {
+      "domainColor": "#676A86",
+      "domainOpacity": 0.5,
+      "grid": false,
+      "labelAngle": 0,
+      "labelColor": "#676A86",
+      "labelOpacity": 0.7,
+      "orient": "bottom",
+      "tickColor": "#676A86",
+      "tickCount": 10,
+      "tickOpacity": 0.5,
+      "title": "",
+      "titleAlign": "center",
+      "titleAnchor": "middle",
+      "titleColor": "#676A86",
+      "titleFontSize": 12,
+      "titleOpacity": 0.8,
+      "titleY": -15
+    },
+    "axisY": {
+      "domainColor": "#676A86",
+      "domainOpacity": 0.5,
+      "gridColor": "#676A86",
+      "gridDash": [1, 5],
+      "gridOpacity": 0.5,
+      "labelColor": "#676A86",
+      "labelOpacity": 0.7,
+      "labelPadding": 5,
+      "tickColor": "#676A86",
+      "tickCount": 8,
+      "tickOpacity": 0.5,
+      "ticks": false,
+      "titleAlign": "left",
+      "titleAngle": 0,
+      "titleBaseline": "bottom",
+      "titleColor": "#676A86",
+      "titleFontSize": 12,
+      "titleOpacity": 0.8,
+      "titleX": 0,
+      "titleY": -7
+    }
+  },
+  "data": {
+    "url": "https://raw.githubusercontent.com/andreacorreaj/GD_UK/main/Sectors_Emp_Share.csv"
+  },
+  "mark": "bar",
+  "width": 75,
+  "encoding": {
+    "x": {"field": "Year", "type": "ordinal", "title": ""},
+    "y": {
+      "aggregate": "sum",
+      "field": "Value",
+      "type": "quantitative",
+      "title": ""
+    },
+    "color": {
+      "field": "Sector",
+      "type": "nominal",
+      "scale": {
+        "domain": ["Agriculture", "Industry/Manufacturing", "Services"],
+        "range": ["#e6224b", "#f4c245", "#36b7b4"]
+      },
+      "title": "Sector"
+    },
+    "column": {"field": "Country", "header": {"title": null, "orient": "bottom"}}
+  }
+}
