@@ -1,0 +1,73 @@
+﻿Country,Year,Sector,Value
+Canada,1997,Agriculture,2.1
+Canada,1997,Industry/Manufacturing,27.7
+Canada,1997,Services,62.8
+Canada,2008,Agriculture,1.8
+Canada,2008,Industry/Manufacturing,29.3
+Canada,2008,Services,62.7
+Canada,2018,Agriculture,1.7
+Canada,2018,Industry/Manufacturing,24.6
+Canada,2018,Services,66.9
+Germany,1997,Agriculture,1
+Germany,1997,Industry/Manufacturing,28.6
+Germany,1997,Services,61.1
+Germany,2008,Agriculture,0.8
+Germany,2008,Industry/Manufacturing,26.8
+Germany,2008,Services,62.2
+Germany,2018,Agriculture,0.7
+Germany,2018,Industry/Manufacturing,27.3
+Germany,2018,Services,62.1
+Spain,1997,Agriculture,4.3
+Spain,1997,Industry/Manufacturing,28.1
+Spain,1997,Services,59.6
+Spain,2008,Agriculture,2.4
+Spain,2008,Industry/Manufacturing,26.3
+Spain,2008,Services,63.5
+Spain,2018,Agriculture,2.8
+Spain,2018,Industry/Manufacturing,19.9
+Spain,2018,Services,67.9
+France,1997,Agriculture,2.3
+France,1997,Industry/Manufacturing,21.5
+France,1997,Services,65.4
+France,2008,Agriculture,1.5
+France,2008,Industry/Manufacturing,18.8
+France,2008,Services,69.7
+France,2018,Agriculture,1.6
+France,2018,Industry/Manufacturing,17.2
+France,2018,Services,70.1
+United Kingdom,1997,Agriculture,1
+United Kingdom,1997,Industry/Manufacturing,23.8
+United Kingdom,1997,Services,65.6
+United Kingdom,2008,Agriculture,0.7
+United Kingdom,2008,Industry/Manufacturing,20
+United Kingdom,2008,Services,69.9
+United Kingdom,2018,Agriculture,0.6
+United Kingdom,2018,Industry/Manufacturing,17.9
+United Kingdom,2018,Services,70.9
+Italy,1997,Agriculture,2.9
+Italy,1997,Industry/Manufacturing,25.5
+Italy,1997,Services,61.7
+Italy,2008,Agriculture,1.9
+Italy,2008,Industry/Manufacturing,23.6
+Italy,2008,Services,64.7
+Italy,2018,Agriculture,1.9
+Italy,2018,Industry/Manufacturing,21.5
+Italy,2018,Services,66.3
+Japan,1997,Agriculture,1.5
+Japan,1997,Industry/Manufacturing,33.9
+Japan,1997,Services,64.2
+Japan,2008,Agriculture,1.1
+Japan,2008,Industry/Manufacturing,28.8
+Japan,2008,Services,70.3
+Japan,2018,Agriculture,1
+Japan,2018,Industry/Manufacturing,29
+Japan,2018,Services,69.4
+United States,1997,Agriculture,1.3
+United States,1997,Industry/Manufacturing,23.1
+United States,1997,Services,71.8
+United States,2008,Agriculture,1.1
+United States,2008,Industry/Manufacturing,20.8
+United States,2008,Services,74.6
+United States,2018,Agriculture,0.9
+United States,2018,Industry/Manufacturing,18.6
+United States,2018,Services,76.7
