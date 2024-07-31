@@ -1,0 +1,1470 @@
+{
+  "config": {
+    "font": "Circular Std",
+    "mark": {"line": {"interpolate": "linear"}},
+    "view": {"stroke": "transparent", "width": 400, "height": 300},
+    "range": {
+      "category": [
+        "#179fdb",
+        "#e6224b",
+        "#f4c245",
+        "#122b39",
+        "#eb5c2e",
+        "#36b7b4"
+      ],
+      "diverging": ["#E6224B", "#E54753", "#C9C9C9", "#179FDB", "#122B39"],
+      "heatmap": ["#C9C9C9", "#179FDB", "#0063AF", "#122B39"],
+      "ordinal": ["#00A767", "#36B7B4", "#179FDB", "#0063AF", "#243B5A"]
+    },
+    "axisX": {
+      "labelColor": "#122b39",
+      "tickColor": "#122b39",
+      "domainColor": "#122b39",
+      "domainOpacity": 0.5,
+      "gridOpacity": 0,
+      "labelFont": "Circular Std",
+      "labelAngle": 0,
+      "labelAlign": "center",
+      "labelFontSize": 11,
+      "labelPadding": 5,
+      "tickCount": 10,
+      "tickSize": 0,
+      "title": ""
+    },
+    "axisY": {
+      "labelColor": "#122b39",
+      "labelFont": "Circular Std",
+      "tickColor": "#122b39",
+      "domainColor": "#122b39",
+      "gridColor": "#122b39",
+      "gridDash": [1, 5],
+      "gridOpacity": 0.5,
+      "labelPadding": 5,
+      "labelFontSize": 11,
+      "domainOpacity": 0.5,
+      "tickSize": 0,
+      "title": null,
+      "titleAlign": "left",
+      "titleAngle": 0,
+      "titleBaseline": "bottom",
+      "titleColor": "#122b39",
+      "titleOpacity": 0.9,
+      "titleX": 0,
+      "titleY": -7
+    }
+  },
+  "layer": [
+    {
+      "mark": {"type": "line"},
+      "encoding": {
+        "color": {
+          "field": "Region name",
+          "legend": null,
+          "scale": {"scheme": "category20"},
+          "title": "Region",
+          "type": "nominal"
+        },
+        "detail": {"field": "ITL code", "type": "nominal"},
+        "x": {"field": "date", "title": "Year", "type": "temporal"},
+        "y": {
+          "axis": {"labelExpr": "datum.value + '%'"},
+          "field": "value",
+          "scale": {"zero": false},
+          "title": "",
+          "type": "quantitative"
+        }
+      }
+    },
+    {
+      "mark": {"type": "text", "align": "left", "dx": 5},
+      "encoding": {
+        "color": {
+          "field": "Region name",
+          "legend": null,
+          "scale": {"scheme": "category20"},
+          "title": "Region",
+          "type": "nominal"
+        },
+        "text": {"field": "label", "type": "nominal"},
+        "x": {"field": "date", "title": "Year", "type": "temporal"},
+        "y": {
+          "axis": {"labelExpr": "datum.value + '%'"},
+          "field": "value",
+          "scale": {"zero": false},
+          "title": "",
+          "type": "quantitative"
+        }
+      }
+    }
+  ],
+  "data": {"name": "data-d018a6ecbd0b5d424eae98a67a57d142"},
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.8.0.json",
+  "datasets": {
+    "data-d018a6ecbd0b5d424eae98a67a57d142": [
+      {
+        "ITL code": "TLD",
+        "Region name": "North West",
+        "date": "2000",
+        "value": 1,
+        "label": ""
+      },
+      
+    
+      {
+        "ITL code": "TLG",
+        "Region name": "West Midlands",
+        "date": "2000",
+        "value": 1,
+        "label": ""
+      },
+      {
+        "ITL code": "TLH",
+        "Region name": "East",
+        "date": "2000",
+        "value": 1,
+        "label": ""
+      },
+      {
+        "ITL code": "TLI",
+        "Region name": "London",
+        "date": "2000",
+        "value": 1,
+        "label": ""
+      },
+      {
+        "ITL code": "TLJ",
+        "Region name": "South East",
+        "date": "2000",
+        "value": 1,
+        "label": ""
+      },
+      
+      {
+        "ITL code": "TLL",
+        "Region name": "Wales",
+        "date": "2000",
+        "value": 1,
+        "label": ""
+      },
+      {
+        "ITL code": "TLM",
+        "Region name": "Scotland",
+        "date": "2000",
+        "value": 1,
+        "label": ""
+      },
+      {
+        "ITL code": "TLN",
+        "Region name": "Northern Ireland",
+        "date": "2000",
+        "value": 1,
+        "label": ""
+      },
+      
+      {
+        "ITL code": "TLD",
+        "Region name": "North West",
+        "date": "2001",
+        "value": 1.0412300019930738,
+        "label": ""
+      },
+     
+      {
+        "ITL code": "TLG",
+        "Region name": "West Midlands",
+        "date": "2001",
+        "value": 1.0278261036130187,
+        "label": ""
+      },
+      {
+        "ITL code": "TLH",
+        "Region name": "East",
+        "date": "2001",
+        "value": 1.030939062509019,
+        "label": ""
+      },
+      {
+        "ITL code": "TLI",
+        "Region name": "London",
+        "date": "2001",
+        "value": 1.013503335964075,
+        "label": ""
+      },
+      {
+        "ITL code": "TLJ",
+        "Region name": "South East",
+        "date": "2001",
+        "value": 1.0179976927211314,
+        "label": ""
+      },
+      
+      {
+        "ITL code": "TLL",
+        "Region name": "Wales",
+        "date": "2001",
+        "value": 1.0251549362612935,
+        "label": ""
+      },
+      {
+        "ITL code": "TLM",
+        "Region name": "Scotland",
+        "date": "2001",
+        "value": 1.0391094835215957,
+        "label": ""
+      },
+      {
+        "ITL code": "TLN",
+        "Region name": "Northern Ireland",
+        "date": "2001",
+        "value": 1.0238422142312302,
+        "label": ""
+      },
+      
+      {
+        "ITL code": "TLD",
+        "Region name": "North West",
+        "date": "2002",
+        "value": 1.065983404200901,
+        "label": ""
+      },
+      
+      
+      {
+        "ITL code": "TLG",
+        "Region name": "West Midlands",
+        "date": "2002",
+        "value": 1.036192385513486,
+        "label": ""
+      },
+      {
+        "ITL code": "TLH",
+        "Region name": "East",
+        "date": "2002",
+        "value": 1.0415252936541908,
+        "label": ""
+      },
+      {
+        "ITL code": "TLI",
+        "Region name": "London",
+        "date": "2002",
+        "value": 1.029810159948609,
+        "label": ""
+      },
+      {
+        "ITL code": "TLJ",
+        "Region name": "South East",
+        "date": "2002",
+        "value": 1.0375377826619532,
+        "label": ""
+      },
+      
+      {
+        "ITL code": "TLL",
+        "Region name": "Wales",
+        "date": "2002",
+        "value": 1.0429762286593298,
+        "label": ""
+      },
+      {
+        "ITL code": "TLM",
+        "Region name": "Scotland",
+        "date": "2002",
+        "value": 1.0523786339560246,
+        "label": ""
+      },
+      {
+        "ITL code": "TLN",
+        "Region name": "Northern Ireland",
+        "date": "2002",
+        "value": 1.0298826103460392,
+        "label": ""
+      },
+     
+      {
+        "ITL code": "TLD",
+        "Region name": "North West",
+        "date": "2003",
+        "value": 1.0995261056072525,
+        "label": ""
+      },
+      
+      {
+        "ITL code": "TLG",
+        "Region name": "West Midlands",
+        "date": "2003",
+        "value": 1.0597333561600801,
+        "label": ""
+      },
+      {
+        "ITL code": "TLH",
+        "Region name": "East",
+        "date": "2003",
+        "value": 1.0833246667450576,
+        "label": ""
+      },
+      {
+        "ITL code": "TLI",
+        "Region name": "London",
+        "date": "2003",
+        "value": 1.072157226152193,
+        "label": ""
+      },
+      {
+        "ITL code": "TLJ",
+        "Region name": "South East",
+        "date": "2003",
+        "value": 1.0636515811555243,
+        "label": ""
+      },
+     
+      {
+        "ITL code": "TLL",
+        "Region name": "Wales",
+        "date": "2003",
+        "value": 1.0816125516933053,
+        "label": ""
+      },
+      {
+        "ITL code": "TLM",
+        "Region name": "Scotland",
+        "date": "2003",
+        "value": 1.0847207162058947,
+        "label": ""
+      },
+      {
+        "ITL code": "TLN",
+        "Region name": "Northern Ireland",
+        "date": "2003",
+        "value": 1.0759299554922992,
+        "label": ""
+      },
+      
+      {
+        "ITL code": "TLD",
+        "Region name": "North West",
+        "date": "2004",
+        "value": 1.137065579059462,
+        "label": ""
+      },
+     
+      {
+        "ITL code": "TLG",
+        "Region name": "West Midlands",
+        "date": "2004",
+        "value": 1.0804736778099262,
+        "label": ""
+      },
+      {
+        "ITL code": "TLH",
+        "Region name": "East",
+        "date": "2004",
+        "value": 1.0937751950337589,
+        "label": ""
+      },
+      {
+        "ITL code": "TLI",
+        "Region name": "London",
+        "date": "2004",
+        "value": 1.1006499681391224,
+        "label": ""
+      },
+      {
+        "ITL code": "TLJ",
+        "Region name": "South East",
+        "date": "2004",
+        "value": 1.072388685458547,
+        "label": ""
+      },
+      
+      {
+        "ITL code": "TLL",
+        "Region name": "Wales",
+        "date": "2004",
+        "value": 1.1112587820758155,
+        "label": ""
+      },
+      {
+        "ITL code": "TLM",
+        "Region name": "Scotland",
+        "date": "2004",
+        "value": 1.1200003893900092,
+        "label": ""
+      },
+      {
+        "ITL code": "TLN",
+        "Region name": "Northern Ireland",
+        "date": "2004",
+        "value": 1.1006978733878405,
+        "label": ""
+      },
+      
+      {
+        "ITL code": "TLD",
+        "Region name": "North West",
+        "date": "2005",
+        "value": 1.1657660624388333,
+        "label": ""
+      },
+      
+      
+      {
+        "ITL code": "TLG",
+        "Region name": "West Midlands",
+        "date": "2005",
+        "value": 1.0950296621176567,
+        "label": ""
+      },
+      {
+        "ITL code": "TLH",
+        "Region name": "East",
+        "date": "2005",
+        "value": 1.1317486301850102,
+        "label": ""
+      },
+      {
+        "ITL code": "TLI",
+        "Region name": "London",
+        "date": "2005",
+        "value": 1.1671358501421818,
+        "label": ""
+      },
+      {
+        "ITL code": "TLJ",
+        "Region name": "South East",
+        "date": "2005",
+        "value": 1.107348891999684,
+        "label": ""
+      },
+      
+      {
+        "ITL code": "TLL",
+        "Region name": "Wales",
+        "date": "2005",
+        "value": 1.1240999196361703,
+        "label": ""
+      },
+      {
+        "ITL code": "TLM",
+        "Region name": "Scotland",
+        "date": "2005",
+        "value": 1.1611466078529096,
+        "label": ""
+      },
+      {
+        "ITL code": "TLN",
+        "Region name": "Northern Ireland",
+        "date": "2005",
+        "value": 1.136750881316099,
+        "label": ""
+      },
+      
+      {
+        "ITL code": "TLD",
+        "Region name": "North West",
+        "date": "2006",
+        "value": 1.2078894463698597,
+        "label": ""
+      },
+      
+      
+      {
+        "ITL code": "TLG",
+        "Region name": "West Midlands",
+        "date": "2006",
+        "value": 1.112917734838051,
+        "label": ""
+      },
+      {
+        "ITL code": "TLH",
+        "Region name": "East",
+        "date": "2006",
+        "value": 1.161033792645681,
+        "label": ""
+      },
+      {
+        "ITL code": "TLI",
+        "Region name": "London",
+        "date": "2006",
+        "value": 1.2105457332894431,
+        "label": ""
+      },
+      {
+        "ITL code": "TLJ",
+        "Region name": "South East",
+        "date": "2006",
+        "value": 1.1317935759461966,
+        "label": ""
+      },
+      
+      {
+        "ITL code": "TLL",
+        "Region name": "Wales",
+        "date": "2006",
+        "value": 1.160749841325135,
+        "label": ""
+      },
+      {
+        "ITL code": "TLM",
+        "Region name": "Scotland",
+        "date": "2006",
+        "value": 1.1991669774756462,
+        "label": ""
+      },
+      {
+        "ITL code": "TLN",
+        "Region name": "Northern Ireland",
+        "date": "2006",
+        "value": 1.1707699178504458,
+        "label": ""
+      },
+      
+      {
+        "ITL code": "TLD",
+        "Region name": "North West",
+        "date": "2007",
+        "value": 1.2271182423413294,
+        "label": ""
+      },
+     
+     
+      {
+        "ITL code": "TLG",
+        "Region name": "West Midlands",
+        "date": "2007",
+        "value": 1.1134419262945294,
+        "label": ""
+      },
+      {
+        "ITL code": "TLH",
+        "Region name": "East",
+        "date": "2007",
+        "value": 1.1799133696235382,
+        "label": ""
+      },
+      {
+        "ITL code": "TLI",
+        "Region name": "London",
+        "date": "2007",
+        "value": 1.29744749903007,
+        "label": ""
+      },
+      {
+        "ITL code": "TLJ",
+        "Region name": "South East",
+        "date": "2007",
+        "value": 1.1608830421214928,
+        "label": ""
+      },
+      
+      {
+        "ITL code": "TLL",
+        "Region name": "Wales",
+        "date": "2007",
+        "value": 1.1701535075588287,
+        "label": ""
+      },
+      {
+        "ITL code": "TLM",
+        "Region name": "Scotland",
+        "date": "2007",
+        "value": 1.2272360268897522,
+        "label": ""
+      },
+      {
+        "ITL code": "TLN",
+        "Region name": "Northern Ireland",
+        "date": "2007",
+        "value": 1.163413267244538,
+        "label": ""
+      },
+      
+      {
+        "ITL code": "TLD",
+        "Region name": "North West",
+        "date": "2008",
+        "value": 1.2147494901483735,
+        "label": ""
+      },
+      
+     
+      {
+        "ITL code": "TLG",
+        "Region name": "West Midlands",
+        "date": "2008",
+        "value": 1.11246916223483,
+        "label": ""
+      },
+      {
+        "ITL code": "TLH",
+        "Region name": "East",
+        "date": "2008",
+        "value": 1.1884067654001866,
+        "label": ""
+      },
+      {
+        "ITL code": "TLI",
+        "Region name": "London",
+        "date": "2008",
+        "value": 1.3010650630653113,
+        "label": ""
+      },
+      {
+        "ITL code": "TLJ",
+        "Region name": "South East",
+        "date": "2008",
+        "value": 1.1858239690317836,
+        "label": ""
+      },
+      
+      {
+        "ITL code": "TLL",
+        "Region name": "Wales",
+        "date": "2008",
+        "value": 1.137748953321995,
+        "label": ""
+      },
+      {
+        "ITL code": "TLM",
+        "Region name": "Scotland",
+        "date": "2008",
+        "value": 1.2447436370138159,
+        "label": ""
+      },
+      {
+        "ITL code": "TLN",
+        "Region name": "Northern Ireland",
+        "date": "2008",
+        "value": 1.129900610176796,
+        "label": ""
+      },
+      
+      {
+        "ITL code": "TLD",
+        "Region name": "North West",
+        "date": "2009",
+        "value": 1.1717582407243132,
+        "label": ""
+      },
+     
+      {
+        "ITL code": "TLG",
+        "Region name": "West Midlands",
+        "date": "2009",
+        "value": 1.0448966372323096,
+        "label": ""
+      },
+      {
+        "ITL code": "TLH",
+        "Region name": "East",
+        "date": "2009",
+        "value": 1.1314436491518813,
+        "label": ""
+      },
+      {
+        "ITL code": "TLI",
+        "Region name": "London",
+        "date": "2009",
+        "value": 1.2275255161137475,
+        "label": ""
+      },
+      {
+        "ITL code": "TLJ",
+        "Region name": "South East",
+        "date": "2009",
+        "value": 1.1416501245835007,
+        "label": ""
+      },
+     
+      {
+        "ITL code": "TLL",
+        "Region name": "Wales",
+        "date": "2009",
+        "value": 1.1019593221028205,
+        "label": ""
+      },
+      {
+        "ITL code": "TLM",
+        "Region name": "Scotland",
+        "date": "2009",
+        "value": 1.2046852345477335,
+        "label": ""
+      },
+      {
+        "ITL code": "TLN",
+        "Region name": "Northern Ireland",
+        "date": "2009",
+        "value": 1.0782345041954369,
+        "label": ""
+      },
+      
+      {
+        "ITL code": "TLD",
+        "Region name": "North West",
+        "date": "2010",
+        "value": 1.1991164330742696,
+        "label": ""
+      },
+    
+      
+      {
+        "ITL code": "TLG",
+        "Region name": "West Midlands",
+        "date": "2010",
+        "value": 1.0812445561772828,
+        "label": ""
+      },
+      {
+        "ITL code": "TLH",
+        "Region name": "East",
+        "date": "2010",
+        "value": 1.1524455486338006,
+        "label": ""
+      },
+      {
+        "ITL code": "TLI",
+        "Region name": "London",
+        "date": "2010",
+        "value": 1.2680308643606473,
+        "label": ""
+      },
+      {
+        "ITL code": "TLJ",
+        "Region name": "South East",
+        "date": "2010",
+        "value": 1.1916655147457156,
+        "label": ""
+      },
+      
+      {
+        "ITL code": "TLL",
+        "Region name": "Wales",
+        "date": "2010",
+        "value": 1.1225701599510418,
+        "label": ""
+      },
+      {
+        "ITL code": "TLM",
+        "Region name": "Scotland",
+        "date": "2010",
+        "value": 1.2107574823595382,
+        "label": ""
+      },
+      {
+        "ITL code": "TLN",
+        "Region name": "Northern Ireland",
+        "date": "2010",
+        "value": 1.0638402304644212,
+        "label": ""
+      },
+      
+      {
+        "ITL code": "TLD",
+        "Region name": "North West",
+        "date": "2011",
+        "value": 1.1938888168076518,
+        "label": ""
+      },
+    
+   
+      {
+        "ITL code": "TLG",
+        "Region name": "West Midlands",
+        "date": "2011",
+        "value": 1.1141293086765105,
+        "label": ""
+      },
+      {
+        "ITL code": "TLH",
+        "Region name": "East",
+        "date": "2011",
+        "value": 1.1555702600296807,
+        "label": ""
+      },
+      {
+        "ITL code": "TLI",
+        "Region name": "London",
+        "date": "2011",
+        "value": 1.3063454545591806,
+        "label": ""
+      },
+      {
+        "ITL code": "TLJ",
+        "Region name": "South East",
+        "date": "2011",
+        "value": 1.2160727576287893,
+        "label": ""
+      },
+   
+      {
+        "ITL code": "TLL",
+        "Region name": "Wales",
+        "date": "2011",
+        "value": 1.1542234627578192,
+        "label": ""
+      },
+      {
+        "ITL code": "TLM",
+        "Region name": "Scotland",
+        "date": "2011",
+        "value": 1.2286630941583492,
+        "label": ""
+      },
+      {
+        "ITL code": "TLN",
+        "Region name": "Northern Ireland",
+        "date": "2011",
+        "value": 1.0831125048262096,
+        "label": ""
+      },
+   
+      {
+        "ITL code": "TLD",
+        "Region name": "North West",
+        "date": "2012",
+        "value": 1.2180171979672436,
+        "label": ""
+      },
+ 
+      {
+        "ITL code": "TLG",
+        "Region name": "West Midlands",
+        "date": "2012",
+        "value": 1.1316999942939767,
+        "label": ""
+      },
+      {
+        "ITL code": "TLH",
+        "Region name": "East",
+        "date": "2012",
+        "value": 1.1740836535418508,
+        "label": ""
+      },
+      {
+        "ITL code": "TLI",
+        "Region name": "London",
+        "date": "2012",
+        "value": 1.3488229368221447,
+        "label": ""
+      },
+      {
+        "ITL code": "TLJ",
+        "Region name": "South East",
+        "date": "2012",
+        "value": 1.2433412230648366,
+        "label": ""
+      },
+  
+      {
+        "ITL code": "TLL",
+        "Region name": "Wales",
+        "date": "2012",
+        "value": 1.1743509473483769,
+        "label": ""
+      },
+      {
+        "ITL code": "TLM",
+        "Region name": "Scotland",
+        "date": "2012",
+        "value": 1.2470005778654685,
+        "label": ""
+      },
+      {
+        "ITL code": "TLN",
+        "Region name": "Northern Ireland",
+        "date": "2012",
+        "value": 1.104912447683502,
+        "label": ""
+      },
+   
+      {
+        "ITL code": "TLD",
+        "Region name": "North West",
+        "date": "2013",
+        "value": 1.2383884675980341,
+        "label": ""
+      },
+
+      {
+        "ITL code": "TLG",
+        "Region name": "West Midlands",
+        "date": "2013",
+        "value": 1.158057421479117,
+        "label": ""
+      },
+      {
+        "ITL code": "TLH",
+        "Region name": "East",
+        "date": "2013",
+        "value": 1.2028914814771212,
+        "label": ""
+      },
+      {
+        "ITL code": "TLI",
+        "Region name": "London",
+        "date": "2013",
+        "value": 1.388465489090011,
+        "label": ""
+      },
+      {
+        "ITL code": "TLJ",
+        "Region name": "South East",
+        "date": "2013",
+        "value": 1.2639547035224479,
+        "label": ""
+      },
+
+      {
+        "ITL code": "TLL",
+        "Region name": "Wales",
+        "date": "2013",
+        "value": 1.1929737476471125,
+        "label": ""
+      },
+      {
+        "ITL code": "TLM",
+        "Region name": "Scotland",
+        "date": "2013",
+        "value": 1.2774776936090642,
+        "label": ""
+      },
+      {
+        "ITL code": "TLN",
+        "Region name": "Northern Ireland",
+        "date": "2013",
+        "value": 1.120137760557708,
+        "label": ""
+      },
+    
+      {
+        "ITL code": "TLD",
+        "Region name": "North West",
+        "date": "2014",
+        "value": 1.2743599377012,
+        "label": ""
+      },
+     
+      {
+        "ITL code": "TLG",
+        "Region name": "West Midlands",
+        "date": "2014",
+        "value": 1.1997953676243227,
+        "label": ""
+      },
+      {
+        "ITL code": "TLH",
+        "Region name": "East",
+        "date": "2014",
+        "value": 1.2550311516088566,
+        "label": ""
+      },
+      {
+        "ITL code": "TLI",
+        "Region name": "London",
+        "date": "2014",
+        "value": 1.4481287470397937,
+        "label": ""
+      },
+      {
+        "ITL code": "TLJ",
+        "Region name": "South East",
+        "date": "2014",
+        "value": 1.3015646630833095,
+        "label": ""
+      },
+ 
+      {
+        "ITL code": "TLL",
+        "Region name": "Wales",
+        "date": "2014",
+        "value": 1.2098918262527552,
+        "label": ""
+      },
+      {
+        "ITL code": "TLM",
+        "Region name": "Scotland",
+        "date": "2014",
+        "value": 1.3172322709345603,
+        "label": ""
+      },
+      {
+        "ITL code": "TLN",
+        "Region name": "Northern Ireland",
+        "date": "2014",
+        "value": 1.143996559420529,
+        "label": ""
+      },
+ 
+      {
+        "ITL code": "TLD",
+        "Region name": "North West",
+        "date": "2015",
+        "value": 1.3095933861136602,
+        "label": ""
+      },
+   
+      {
+        "ITL code": "TLG",
+        "Region name": "West Midlands",
+        "date": "2015",
+        "value": 1.2311959032969992,
+        "label": ""
+      },
+      {
+        "ITL code": "TLH",
+        "Region name": "East",
+        "date": "2015",
+        "value": 1.2767167407319187,
+        "label": ""
+      },
+      {
+        "ITL code": "TLI",
+        "Region name": "London",
+        "date": "2015",
+        "value": 1.4676072246712464,
+        "label": ""
+      },
+      {
+        "ITL code": "TLJ",
+        "Region name": "South East",
+        "date": "2015",
+        "value": 1.3362002956171868,
+        "label": ""
+      },
+
+      {
+        "ITL code": "TLL",
+        "Region name": "Wales",
+        "date": "2015",
+        "value": 1.2368728262513233,
+        "label": ""
+      },
+      {
+        "ITL code": "TLM",
+        "Region name": "Scotland",
+        "date": "2015",
+        "value": 1.3296717337678017,
+        "label": ""
+      },
+      {
+        "ITL code": "TLN",
+        "Region name": "Northern Ireland",
+        "date": "2015",
+        "value": 1.1562751519241787,
+        "label": ""
+      },
+     
+      {
+        "ITL code": "TLD",
+        "Region name": "North West",
+        "date": "2016",
+        "value": 1.328548378265189,
+        "label": ""
+      },
+
+      {
+        "ITL code": "TLG",
+        "Region name": "West Midlands",
+        "date": "2016",
+        "value": 1.2619239281740586,
+        "label": ""
+      },
+      {
+        "ITL code": "TLH",
+        "Region name": "East",
+        "date": "2016",
+        "value": 1.3053112304940002,
+        "label": ""
+      },
+      {
+        "ITL code": "TLI",
+        "Region name": "London",
+        "date": "2016",
+        "value": 1.5285351362732205,
+        "label": ""
+      },
+      {
+        "ITL code": "TLJ",
+        "Region name": "South East",
+        "date": "2016",
+        "value": 1.340948563743228,
+        "label": ""
+      },
+
+      {
+        "ITL code": "TLL",
+        "Region name": "Wales",
+        "date": "2016",
+        "value": 1.2669886580651804,
+        "label": ""
+      },
+      {
+        "ITL code": "TLM",
+        "Region name": "Scotland",
+        "date": "2016",
+        "value": 1.3343140266812163,
+        "label": ""
+      },
+      {
+        "ITL code": "TLN",
+        "Region name": "Northern Ireland",
+        "date": "2016",
+        "value": 1.206097944221938,
+        "label": ""
+      },
+
+      {
+        "ITL code": "TLD",
+        "Region name": "North West",
+        "date": "2017",
+        "value": 1.3743622716082917,
+        "label": ""
+      },
+
+      {
+        "ITL code": "TLG",
+        "Region name": "West Midlands",
+        "date": "2017",
+        "value": 1.305721024248761,
+        "label": ""
+      },
+      {
+        "ITL code": "TLH",
+        "Region name": "East",
+        "date": "2017",
+        "value": 1.3749817288381705,
+        "label": ""
+      },
+      {
+        "ITL code": "TLI",
+        "Region name": "London",
+        "date": "2017",
+        "value": 1.5588133586213628,
+        "label": ""
+      },
+      {
+        "ITL code": "TLJ",
+        "Region name": "South East",
+        "date": "2017",
+        "value": 1.3711757881089843,
+        "label": ""
+      },
+
+      {
+        "ITL code": "TLL",
+        "Region name": "Wales",
+        "date": "2017",
+        "value": 1.2894350019561243,
+        "label": ""
+      },
+      {
+        "ITL code": "TLM",
+        "Region name": "Scotland",
+        "date": "2017",
+        "value": 1.3776569499766365,
+        "label": ""
+      },
+      {
+        "ITL code": "TLN",
+        "Region name": "Northern Ireland",
+        "date": "2017",
+        "value": 1.230378857497759,
+        "label": ""
+      },
+
+      {
+        "ITL code": "TLD",
+        "Region name": "North West",
+        "date": "2018",
+        "value": 1.3861611377110497,
+        "label": ""
+      },
+
+      {
+        "ITL code": "TLG",
+        "Region name": "West Midlands",
+        "date": "2018",
+        "value": 1.3228155545470954,
+        "label": ""
+      },
+      {
+        "ITL code": "TLH",
+        "Region name": "East",
+        "date": "2018",
+        "value": 1.375925743967922,
+        "label": ""
+      },
+      {
+        "ITL code": "TLI",
+        "Region name": "London",
+        "date": "2018",
+        "value": 1.5881274694217926,
+        "label": ""
+      },
+      {
+        "ITL code": "TLJ",
+        "Region name": "South East",
+        "date": "2018",
+        "value": 1.3963477559555857,
+        "label": ""
+      },
+
+      {
+        "ITL code": "TLL",
+        "Region name": "Wales",
+        "date": "2018",
+        "value": 1.3228868020694586,
+        "label": ""
+      },
+      {
+        "ITL code": "TLM",
+        "Region name": "Scotland",
+        "date": "2018",
+        "value": 1.376369761406115,
+        "label": ""
+      },
+      {
+        "ITL code": "TLN",
+        "Region name": "Northern Ireland",
+        "date": "2018",
+        "value": 1.241072371373512,
+        "label": ""
+      },
+
+      {
+        "ITL code": "TLD",
+        "Region name": "North West",
+        "date": "2019",
+        "value": 1.4195750398783051,
+        "label": ""
+      },
+
+      {
+        "ITL code": "TLG",
+        "Region name": "West Midlands",
+        "date": "2019",
+        "value": 1.313991266142279,
+        "label": ""
+      },
+      {
+        "ITL code": "TLH",
+        "Region name": "East",
+        "date": "2019",
+        "value": 1.4042867923195554,
+        "label": ""
+      },
+      {
+        "ITL code": "TLI",
+        "Region name": "London",
+        "date": "2019",
+        "value": 1.6126004575269055,
+        "label": ""
+      },
+      {
+        "ITL code": "TLJ",
+        "Region name": "South East",
+        "date": "2019",
+        "value": 1.4419720395067688,
+        "label": ""
+      },
+
+      {
+        "ITL code": "TLL",
+        "Region name": "Wales",
+        "date": "2019",
+        "value": 1.3448637532133678,
+        "label": ""
+      },
+      {
+        "ITL code": "TLM",
+        "Region name": "Scotland",
+        "date": "2019",
+        "value": 1.3968915948071638,
+        "label": ""
+      },
+      {
+        "ITL code": "TLN",
+        "Region name": "Northern Ireland",
+        "date": "2019",
+        "value": 1.2817885131508322,
+        "label": ""
+      },
+
+      {
+        "ITL code": "TLD",
+        "Region name": "North West",
+        "date": "2020",
+        "value": 1.299916367855147,
+        "label": ""
+      },
+
+      {
+        "ITL code": "TLG",
+        "Region name": "West Midlands",
+        "date": "2020",
+        "value": 1.1794723124045559,
+        "label": ""
+      },
+      {
+        "ITL code": "TLH",
+        "Region name": "East",
+        "date": "2020",
+        "value": 1.2504436064392623,
+        "label": ""
+      },
+      {
+        "ITL code": "TLI",
+        "Region name": "London",
+        "date": "2020",
+        "value": 1.408445955257046,
+        "label": ""
+      },
+      {
+        "ITL code": "TLJ",
+        "Region name": "South East",
+        "date": "2020",
+        "value": 1.3522966834386754,
+        "label": ""
+      },
+
+      {
+        "ITL code": "TLL",
+        "Region name": "Wales",
+        "date": "2020",
+        "value": 1.2148180276183786,
+        "label": ""
+      },
+      {
+        "ITL code": "TLM",
+        "Region name": "Scotland",
+        "date": "2020",
+        "value": 1.2349509895128663,
+        "label": ""
+      },
+      {
+        "ITL code": "TLN",
+        "Region name": "Northern Ireland",
+        "date": "2020",
+        "value": 1.1385225269202874,
+        "label": ""
+      },
+
+      {
+        "ITL code": "TLD",
+        "Region name": "North West",
+        "date": "2021",
+        "value": 1.4168614235886934,
+        "label": ""
+      },
+
+      {
+        "ITL code": "TLG",
+        "Region name": "West Midlands",
+        "date": "2021",
+        "value": 1.293640685006494,
+        "label": ""
+      },
+      {
+        "ITL code": "TLH",
+        "Region name": "East",
+        "date": "2021",
+        "value": 1.3730634478308525,
+        "label": ""
+      },
+      {
+        "ITL code": "TLI",
+        "Region name": "London",
+        "date": "2021",
+        "value": 1.5255126854208798,
+        "label": ""
+      },
+      {
+        "ITL code": "TLJ",
+        "Region name": "South East",
+        "date": "2021",
+        "value": 1.4297694771814304,
+        "label": ""
+      },
+
+      {
+        "ITL code": "TLL",
+        "Region name": "Wales",
+        "date": "2021",
+        "value": 1.264211192076163,
+        "label": ""
+      },
+      {
+        "ITL code": "TLM",
+        "Region name": "Scotland",
+        "date": "2021",
+        "value": 1.3407973946423177,
+        "label": ""
+      },
+      {
+        "ITL code": "TLN",
+        "Region name": "Northern Ireland",
+        "date": "2021",
+        "value": 1.2664714277593407,
+        "label": ""
+      },
+
+      {
+        "ITL code": "TLD",
+        "Region name": "North West",
+        "date": "2022",
+        "value": 1.4857363913510722,
+        "label": "North West"
+      },
+
+      {
+        "ITL code": "TLG",
+        "Region name": "West Midlands",
+        "date": "2022",
+        "value": 1.3307808292539136,
+        "label": "West Midlands"
+      },
+      {
+        "ITL code": "TLH",
+        "Region name": "East",
+        "date": "2022",
+        "value": 1.424604094152788,
+        "label": "East"
+      },
+      {
+        "ITL code": "TLI",
+        "Region name": "London",
+        "date": "2022",
+        "value": 1.5981433089721795,
+        "label": "London"
+      },
+      {
+        "ITL code": "TLJ",
+        "Region name": "South East",
+        "date": "2022",
+        "value": 1.493330035572067,
+        "label": "South East"
+      },
+
+      {
+        "ITL code": "TLL",
+        "Region name": "Wales",
+        "date": "2022",
+        "value": 1.3202868816794793,
+        "label": "Wales"
+      },
+      {
+        "ITL code": "TLM",
+        "Region name": "Scotland",
+        "date": "2022",
+        "value": 1.3867968428846433,
+        "label": "Scotland"
+      },
+      {
+        "ITL code": "TLN",
+        "Region name": "Northern Ireland",
+        "date": "2022",
+        "value": 1.3022287630427363,
+        "label": "Northern Ireland"
+      }
+    ]
+  }
+}
