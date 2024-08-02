@@ -1,0 +1,88 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "A simple bar chart with embedded data.",
+ "title": {
+    "text": "GDP per hour worked",
+    "subtitle": ["US dollars"],
+    "color": "#122b39E6",
+    "subtitleColor": "#676A86",
+    "anchor": "start",
+    "dx": 24,
+    "fontSize": 14,
+    "subtitleFontSize": 12,
+    "subtitlePadding": 4,
+    "offset": 0
+  },
+  "height": 300,
+  "width": 500,
+  "config": {
+    "font": "Circular Std",
+    "view": {"stroke": "transparent"},
+    "axisX": {
+      "domainColor": "#676A86",
+      "domainOpacity": 0.5,
+      "grid": false,
+      "labelAngle": 0,
+      "labelColor": "#676A86",
+      "labelOpacity": 0.7,
+      "orient": "bottom",
+      "tickColor": "#676A86",
+      "tickCount": 10,
+      "tickOpacity": 0.5,
+      "title": "",
+      "titleAlign": "center",
+      "titleAnchor": "middle",
+      "titleColor": "#676A86",
+      "titleFontSize": 12,
+      "titleOpacity": 0.8,
+      "titleY": -15
+    },
+    "axisY": {
+      "domainColor": "#676A86",
+      "domainOpacity": 0.5,
+      "gridColor": "#676A86",
+      "gridDash": [1, 5],
+      "gridOpacity": 0.5,
+      "labelColor": "#676A86",
+      "labelOpacity": 0.7,
+      "labelPadding": 5,
+      "tickColor": "#676A86",
+      "tickCount": 8,
+      "tickOpacity": 0.5,
+      "ticks": false,
+      "titleAlign": "left",
+      "titleAngle": 0,
+      "titleBaseline": "bottom",
+      "titleColor": "#676A86",
+      "titleFontSize": 12,
+      "titleOpacity": 0.8,
+      "titleX": 0,
+      "titleY": -7
+    }
+  },
+
+  "data": {
+    "values": [
+      {"Country": "United Kingdom", "Value": 60.48},
+      {"Country": "United States", "Value": 73.90},
+      {"Country": "France", "Value": 65.16},
+      {"Country": "Italy", "Value": 54.21},
+      {"Country": "Japan", "Value": 48.08},
+      {"Country": "Spain", "Value": 53.08},
+      {"Country": "Canada", "Value": 53.31},
+      {"Country": "Germany", "Value": 68.54}, 
+    ]
+  },
+  "mark": "bar",
+  "encoding": {
+    "x": {"field": "Country", "type": "nominal", "axis": {"labelAngle": -90}, "sort":"-y"},
+    "y": {"field": "Value", "type": "quantitative", "title":""},
+    "color": {
+      "condition": [
+        {"test": "datum.Country == 'United Kingdom'", "value": "#179fdb"}
+      ],
+      "value": "rgba(0,0,0,0.5)"
+    },
+
+  }
+}
