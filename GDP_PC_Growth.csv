@@ -1,0 +1,273 @@
+﻿Country,Year,Value
+Canada,1990,100
+Canada,1991,97
+Canada,1992,96
+Canada,1993,98
+Canada,1994,101
+Canada,1995,103
+Canada,1996,104
+Canada,1997,107
+Canada,1998,110
+Canada,1999,114
+Canada,2000,118
+Canada,2001,119
+Canada,2002,121
+Canada,2003,122
+Canada,2004,124
+Canada,2005,126
+Canada,2006,128
+Canada,2007,129
+Canada,2008,129
+Canada,2009,125
+Canada,2010,127
+Canada,2011,129
+Canada,2012,130
+Canada,2013,131
+Canada,2014,133
+Canada,2015,133
+Canada,2016,132
+Canada,2017,134
+Canada,2018,136
+Canada,2019,136
+Canada,2020,130
+Canada,2021,135
+Canada,2022,137
+Canada,2023,135
+Germany,1990,100
+Germany,1991,104
+Germany,1992,106
+Germany,1993,104
+Germany,1994,106
+Germany,1995,107
+Germany,1996,108
+Germany,1997,109
+Germany,1998,111
+Germany,1999,113
+Germany,2000,116
+Germany,2001,117
+Germany,2002,117
+Germany,2003,116
+Germany,2004,117
+Germany,2005,118
+Germany,2006,122
+Germany,2007,125
+Germany,2008,126
+Germany,2009,121
+Germany,2010,125
+Germany,2011,131
+Germany,2012,131
+Germany,2013,131
+Germany,2014,133
+Germany,2015,134
+Germany,2016,135
+Germany,2017,138
+Germany,2018,138
+Germany,2019,139
+Germany,2020,135
+Germany,2021,138
+Germany,2022,139
+Germany,2023,138
+Spain,1990,100
+Spain,1991,102
+Spain,1992,103
+Spain,1993,101
+Spain,1994,103
+Spain,1995,105
+Spain,1996,108
+Spain,1997,111
+Spain,1998,115
+Spain,1999,119
+Spain,2000,124
+Spain,2001,127
+Spain,2002,128
+Spain,2003,129
+Spain,2004,131
+Spain,2005,133
+Spain,2006,135
+Spain,2007,137
+Spain,2008,136
+Spain,2009,132
+Spain,2010,131
+Spain,2011,130
+Spain,2012,127
+Spain,2013,126
+Spain,2014,128
+Spain,2015,132
+Spain,2016,135
+Spain,2017,137
+Spain,2018,139
+Spain,2019,140
+Spain,2020,129
+Spain,2021,135
+Spain,2022,140
+Spain,2023,141
+France,1990,100
+France,1991,100
+France,1992,101
+France,1993,100
+France,1994,102
+France,1995,104
+France,1996,105
+France,1997,107
+France,1998,110
+France,1999,113
+France,2000,116
+France,2001,118
+France,2002,118
+France,2003,118
+France,2004,120
+France,2005,121
+France,2006,123
+France,2007,125
+France,2008,124
+France,2009,121
+France,2010,122
+France,2011,124
+France,2012,124
+France,2013,124
+France,2014,124
+France,2015,125
+France,2016,126
+France,2017,128
+France,2018,129
+France,2019,131
+France,2020,123
+France,2021,129
+France,2022,131
+France,2023,132
+United Kingdom,1990,100
+United Kingdom,1991,99
+United Kingdom,1992,99
+United Kingdom,1993,101
+United Kingdom,1994,105
+United Kingdom,1995,107
+United Kingdom,1996,109
+United Kingdom,1997,114
+United Kingdom,1998,117
+United Kingdom,1999,120
+United Kingdom,2000,124
+United Kingdom,2001,126
+United Kingdom,2002,127
+United Kingdom,2003,130
+United Kingdom,2004,132
+United Kingdom,2005,134
+United Kingdom,2006,135
+United Kingdom,2007,137
+United Kingdom,2008,136
+United Kingdom,2009,131
+United Kingdom,2010,132
+United Kingdom,2011,133
+United Kingdom,2012,133
+United Kingdom,2013,134
+United Kingdom,2014,137
+United Kingdom,2015,138
+United Kingdom,2016,139
+United Kingdom,2017,141
+United Kingdom,2018,142
+United Kingdom,2019,143
+United Kingdom,2020,133
+United Kingdom,2021,141
+United Kingdom,2022,145
+United Kingdom,2023,144
+Italy,1990,100
+Italy,1991,102
+Italy,1992,102
+Italy,1993,101
+Italy,1994,104
+Italy,1995,106
+Italy,1996,108
+Italy,1997,109
+Italy,1998,111
+Italy,1999,113
+Italy,2000,117
+Italy,2001,118
+Italy,2002,119
+Italy,2003,118
+Italy,2004,119
+Italy,2005,119
+Italy,2006,121
+Italy,2007,122
+Italy,2008,120
+Italy,2009,115
+Italy,2010,116
+Italy,2011,116
+Italy,2012,113
+Italy,2013,110
+Italy,2014,109
+Italy,2015,110
+Italy,2016,112
+Italy,2017,114
+Italy,2018,115
+Italy,2019,116
+Italy,2020,108
+Italy,2021,117
+Italy,2022,121
+Italy,2023,122
+Japan,1990,100
+Japan,1991,103
+Japan,1992,104
+Japan,1993,103
+Japan,1994,104
+Japan,1995,106
+Japan,1996,109
+Japan,1997,110
+Japan,1998,108
+Japan,1999,108
+Japan,2000,110
+Japan,2001,110
+Japan,2002,110
+Japan,2003,111
+Japan,2004,114
+Japan,2005,115
+Japan,2006,117
+Japan,2007,118
+Japan,2008,117
+Japan,2009,111
+Japan,2010,115
+Japan,2011,115
+Japan,2012,117
+Japan,2013,119
+Japan,2014,120
+Japan,2015,121
+Japan,2016,122
+Japan,2017,124
+Japan,2018,125
+Japan,2019,124
+Japan,2020,120
+Japan,2021,123
+Japan,2022,125
+Japan,2023,127
+United States,1990,100
+United States,1991,99
+United States,1992,101
+United States,1993,102
+United States,1994,105
+United States,1995,106
+United States,1996,109
+United States,1997,112
+United States,1998,116
+United States,1999,119
+United States,2000,122
+United States,2001,122
+United States,2002,123
+United States,2003,125
+United States,2004,128
+United States,2005,130
+United States,2006,132
+United States,2007,133
+United States,2008,132
+United States,2009,129
+United States,2010,131
+United States,2011,131
+United States,2012,133
+United States,2013,134
+United States,2014,136
+United States,2015,138
+United States,2016,139
+United States,2017,141
+United States,2018,144
+United States,2019,146
+United States,2020,142
+United States,2021,148
+United States,2022,150
+United States,2023,152
