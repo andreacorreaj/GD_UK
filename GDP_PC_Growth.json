@@ -59,38 +59,14 @@
       "titleY": -7
     }
   },
-  "data": {
-    "url": "https://raw.githubusercontent.com/andreacorreaj/GD_UK/main/GDP_PP_Growth.csv"
-  },
-  "layer":[
-{
-  "mark": "line"
-},
-{
-  "mark": {
-    "type": "text",
-    "align": "left",
-    "dx": 5
-  },
-  "transform": [
-    {
-      "filter": "datum.Country == 'United Kingdom' && year(datum.Year) == 2023"
-    }
-  ],
-  "encoding": {
-    "text": {"field":"Country"}
-  }
-}
-  ],
+  "data": {"url": "https://raw.githubusercontent.com/andreacorreaj/GD_UK/main/GDP_PC_Growth.csv"},
+ 
+
+ 
+  "mark": "line", 
   "encoding": {
     "x": {"field": "Year", "type": "temporal"},
-    "y": {"field": "Value", "type": "quantitative", "title": ""},
-    "color": {
-      "condition": [
-        {"test": "datum.Country == 'United Kingdom'", "value": "#179fdb"}
-      ],
-      "value": "rgba(0,0,0,0.15)"
-    },
-    "detail": {"field": "Country"}
+    "y": {"field": "Value", "type": "quantitative"},
+    "color": {"field": "Country", "type": "nominal"}
   }
 }
