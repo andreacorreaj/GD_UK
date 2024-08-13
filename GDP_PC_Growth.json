@@ -2,7 +2,7 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": {
     "text": "GDP Per Capita Growth - UK vs Peer countries",
-    "subtitle": ["Percentage"],
+    "subtitle": ["1990 = 100"],
     "color": "#122b39E6",
     "subtitleColor": "#676A86",
     "anchor": "start",
@@ -66,7 +66,7 @@
   "mark": "line", 
   "encoding": {
     "x": {"field": "Year", "type": "temporal"},
-    "y": {"field": "Value", "type": "quantitative"},
+    "y": {"field": "Value", "type": "quantitative", "title":"",  "scale": {"domain": [80,160]}},
     "color": {"field": "Country", "type": "nominal"}
   }
 }
