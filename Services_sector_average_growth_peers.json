@@ -1,5 +1,5 @@
 {
-  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "description": "A simple bar chart with embedded data.",
  "title": {
     "text": "Services sector average GVA growth",
@@ -13,58 +13,71 @@
     "subtitlePadding": 4,
     "offset": 0
   },
+  "width": 450,
   "height": 300,
-  "width": 500,
   "config": {
-    "font": "Circular Std",
-    "view": {"stroke": "transparent"},
+    "font": "Circular Std Book",
+    "mark": {"line": {"interpolate": "linear"}},
+    "view": {"stroke": "transparent", "width": 400, "height": 300},
+    "range": {
+      "category": [
+        "#001f3f",
+        "#4269d0",
+        "#efb118",
+        "#ff725c",
+        "#6cc5b0",
+        "#3ca951",
+        "#ff8ab7",
+        "#a463f2",
+        "#97bbf5",
+        "#9c6b4e"
+      ],
+      "diverging": ["#E6224B", "#E54753", "#C9C9C9", "#179FDB", "#122B39"],
+      "heatmap": ["#C9C9C9", "#179FDB", "#0063AF", "#122B39"],
+      "ordinal": ["#00A767", "#36B7B4", "#179FDB", "#0063AF", "#243B5A"]
+    },
     "axisX": {
-      "domainColor": "#676A86",
+      "labelColor": "#122b39",
+      "tickColor": "#122b39",
+      "domainColor": "#122b39",
       "domainOpacity": 0.5,
-      "grid": false,
+      "gridOpacity": 0,
+      "labelFont": "Circular Std Book",
       "labelAngle": 0,
-      "labelColor": "#676A86",
-      "labelOpacity": 0.7,
-      "orient": "bottom",
-      "tickColor": "#676A86",
+      "labelAlign": "center",
+      "labelFontSize": 11,
+      "labelPadding": 5,
       "tickCount": 10,
-      "tickOpacity": 0.5,
-      "title": "",
-      "titleAlign": "center",
-      "titleAnchor": "middle",
-      "titleColor": "#676A86",
-      "titleFontSize": 12,
-      "titleOpacity": 0.8,
-      "titleY": -15
+      "tickSize": 0,
+      "title": ""
     },
     "axisY": {
-      "domainColor": "#676A86",
-      "domainOpacity": 0.5,
-      "gridColor": "#676A86",
+      "labelColor": "#122b39",
+      "labelFont": "Circular Std Book",
+      "tickColor": "#122b39",
+      "domainColor": "#122b39",
+      "gridColor": "#122b39",
       "gridDash": [1, 5],
       "gridOpacity": 0.5,
-      "labelColor": "#676A86",
-      "labelOpacity": 0.7,
       "labelPadding": 5,
-      "tickColor": "#676A86",
-      "tickCount": 8,
-      "tickOpacity": 0.5,
-      "ticks": false,
+      "labelFontSize": 11,
+      "domainOpacity": 0.5,
+      "tickSize": 0,
+      "title": null,
       "titleAlign": "left",
       "titleAngle": 0,
       "titleBaseline": "bottom",
-      "titleColor": "#676A86",
-      "titleFontSize": 12,
-      "titleOpacity": 0.8,
+      "titleColor": "#122b39",
+      "titleOpacity": 0.9,
       "titleX": 0,
       "titleY": -7
     }
   },
 
-  "data": {
+"data": {
     "values": [
-      {"Country": "United Kingdom", "Value": 3.2},
-      {"Country": "United States", "Value": 4.0},
+      {"Country": "UK", "Value": 3.2},
+      {"Country": "US", "Value": 4.0},
       {"Country": "France", "Value": 4.1},
       {"Country": "Italy", "Value": 3.3},
       {"Country": "Japan", "Value": 0.7},
@@ -75,14 +88,14 @@
   },
   "mark": "bar",
   "encoding": {
-    "x": {"field": "Country", "type": "nominal", "axis": {"labelAngle": -90}, "sort":"-y"},
-    "y": {"field": "Value", "type": "quantitative", "title":""},
+    "x": {"field": "Country", "type": "nominal", "axis": {"labelAngle": 0}, "sort":"-y"},
+    "y": {"field": "Value", "type": "quantitative", "title":"", "axis":{"labelExpr": "datum.value+'%'"}},
     "color": {
       "condition": [
-        {"test": "datum.Country == 'United Kingdom'", "value": "#179fdb"}
+        {"test": "datum.Country == 'UK'", "value": "#001f3f"}
       ],
-      "value": "rgba(0,0,0,0.5)"
+      "value": "rgb(169,192,222)"
     },
 
   }
-}
+    }
