@@ -12,10 +12,10 @@
     "subtitlePadding": 4,
     "offset": 0
   },
-  "width": 400,
+  "width": 450,
   "height": 300,
-"config": {
-    "font": "Circular Std",
+  "config": {
+    "font": "Circular Std Book",
     "mark": {"line": {"interpolate": "linear"}},
     "view": {"stroke": "transparent", "width": 400, "height": 300},
     "range": {
@@ -41,7 +41,7 @@
       "domainColor": "#122b39",
       "domainOpacity": 0.5,
       "gridOpacity": 0,
-      "labelFont": "Circular Std",
+      "labelFont": "Circular Std Book",
       "labelAngle": 0,
       "labelAlign": "center",
       "labelFontSize": 11,
@@ -52,7 +52,7 @@
     },
     "axisY": {
       "labelColor": "#122b39",
-      "labelFont": "Circular Std",
+      "labelFont": "Circular Std Book",
       "tickColor": "#122b39",
       "domainColor": "#122b39",
       "gridColor": "#122b39",
@@ -105,11 +105,11 @@
           "type": "nominal"
         },
         "size": {
-          "condition": {"test": "(datum.LOCATION === 'United Kingdom')", "value": 2},
+          "condition": {"test": "(datum.Country === 'United Kingdom')", "value": 2},
           "value": 1.5
         },
         "strokeDash": {
-          "condition": {"test": "(datum.LOCATION === 'United Kingdom')", "value": [0, 0]},
+          "condition": {"test": "(datum.Country === 'United Kingdom')", "value": [0, 0]},
           "value": [5, 2]
         },
         "x": {"field": "Year", "title": "", "type": "temporal"},
@@ -127,9 +127,14 @@
         "align": "left",
         "dx": 5,
         "dy": {
-          "expr": "{\"Italy\": -3, \"United States\": -10, \"Canada\": -5, \"United Kingdom\": 7, \"Spain\": -3}[datum.Country]"
+          "expr": "{\"Italy\": -10, \"United States\": 0, \"Canada\": -10, \"United Kingdom\": -6, \"Spain\": 0, \"Germany\": -4,\"France\": 4,}[datum.Country]"
         }
       },
+      "transform": [
+        {
+          "filter":"year(datum.Year) == 2022"
+        }
+      ],
       "encoding": {
         "color": {
           "field": "Country",
@@ -159,10 +164,10 @@
           "type": "nominal"
         },
         "size": {
-          "condition": {"test": "(datum.LOCATION === 'United Kingdom')", "value": 14},
+          "condition": {"test": "(datum.Country === 'United Kingdom')", "value": 14},
           "value": 12
         },
-        "text": {"field": "label", "type": "nominal"},
+        "text": {"field": "Country", "type": "nominal"},
         "x": {"value": 450},
         "y": {
           "field": "Value",
@@ -174,5 +179,6 @@
     }
   ],
 
-  "data": {"url": "https://raw.githubusercontent.com/andreacorreaj/GD_UK/main/Productivity_Industry_Peers_Manufacturing.csv"}
-}
+  "data": {
+    "url":"https://raw.githubusercontent.com/andreacorreaj/GD_UK/main/Productivity_Industry_Peers_Manufacturing.csv"}
+  }
