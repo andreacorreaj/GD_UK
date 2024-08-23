@@ -23,14 +23,15 @@
 2019,United Kingdom,110
 2020,United Kingdom,103
 2021,United Kingdom,113
-2022,United Kingdom,112
+2022,United Kingdom,111
+2023,United Kingdom,110
 1998,Canada,100
-1999,Canada,103
+1999,Canada,104
 2000,Canada,108
 2001,Canada,111
 2002,Canada,113
 2003,Canada,114
-2004,Canada,114
+2004,Canada,115
 2005,Canada,120
 2006,Canada,124
 2007,Canada,126
@@ -39,16 +40,17 @@
 2010,Canada,128
 2011,Canada,132
 2012,Canada,132
-2013,Canada,135
-2014,Canada,140
+2013,Canada,136
+2014,Canada,139
 2015,Canada,138
 2016,Canada,139
 2017,Canada,141
 2018,Canada,140
 2019,Canada,142
-2020,Canada,150
-2021,Canada,147
-2022,Canada,146
+2020,Canada,151
+2021,Canada,146
+2022,Canada,145
+2023,Canada,145
 1998,Germany,100
 1999,Germany,100
 2000,Germany,104
@@ -74,6 +76,7 @@
 2020,Germany,148
 2021,Germany,148
 2022,Germany,146
+2023,Germany,144
 1998,Spain,100
 1999,Spain,100
 2000,Spain,98
@@ -99,31 +102,33 @@
 2020,Spain,96
 2021,Spain,102
 2022,Spain,109
+2023,Spain,110
 1998,France,100
 1999,France,102
 2000,France,105
 2001,France,106
 2002,France,107
 2003,France,106
-2004,France,105
-2005,France,106
-2006,France,109
-2007,France,109
-2008,France,109
-2009,France,105
-2010,France,106
-2011,France,109
-2012,France,108
-2013,France,110
-2014,France,112
-2015,France,113
-2016,France,115
-2017,France,116
-2018,France,114
-2019,France,114
-2020,France,116
-2021,France,113
-2022,France,107
+2004,France,106
+2005,France,107
+2006,France,110
+2007,France,111
+2008,France,110
+2009,France,107
+2010,France,109
+2011,France,111
+2012,France,111
+2013,France,112
+2014,France,114
+2015,France,116
+2016,France,117
+2017,France,118
+2018,France,115
+2019,France,116
+2020,France,113
+2021,France,111
+2022,France,108
+2023,France,107
 1998,Italy,100
 1999,Italy,100
 2000,Italy,104
@@ -149,3 +154,4 @@
 2020,Italy,117
 2021,Italy,120
 2022,Italy,123
+2023,Italy,120
