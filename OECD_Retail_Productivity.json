@@ -117,7 +117,7 @@
           "field": "Value",
           "title": "",
           "type": "quantitative",
-          "scale": {"domain": [80,150]}
+          "scale": {"domain": [80,130]}
         }
       }
     },
@@ -173,7 +173,7 @@
           "field": "Value",
           "title": "",
           "type": "quantitative",
-          "scale": {"domain": [80,150]}
+          "scale": {"domain": [80,130]}
         }
       }
     }
