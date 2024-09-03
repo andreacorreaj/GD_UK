@@ -127,7 +127,7 @@
         "align": "left",
         "dx": 5,
         "dy": {
-          "expr": "{\"Italy\": 1, \"United States\": 0, \"Canada\": 20, \"United Kingdom\": -15, \"Spain\": -5, \"Germany\": -4,\"France\": -5,}[datum.Country]"
+          "expr": "{\"Italy\": 1, \"United States\": 0, \"Canada\": 30, \"United Kingdom\": 18, \"Spain\": -40, \"Germany\": 4,\"France\": 12,}[datum.Country]"
         }
       },
       "transform": [
