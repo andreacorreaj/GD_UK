@@ -1,0 +1,184 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Gross Debt",
+    "subtitle": ["% GDP"],
+    "color": "#122b39E6",
+    "subtitleColor": "#676A86",
+    "anchor": "start",
+    "dx": 24,
+    "fontSize": 14,
+    "subtitleFontSize": 12,
+    "subtitlePadding": 4,
+    "offset": 0
+  },
+  "width": 450,
+  "height": 300,
+  "config": {
+    "font": "Circular Std Book",
+    "mark": {"line": {"interpolate": "linear"}},
+    "view": {"stroke": "transparent", "width": 400, "height": 300},
+    "range": {
+      "category": [
+        "#001f3f",
+        "#4269d0",
+        "#efb118",
+        "#ff725c",
+        "#6cc5b0",
+        "#3ca951",
+        "#ff8ab7",
+        "#a463f2",
+        "#97bbf5",
+        "#9c6b4e"
+      ],
+      "diverging": ["#E6224B", "#E54753", "#C9C9C9", "#179FDB", "#122B39"],
+      "heatmap": ["#C9C9C9", "#179FDB", "#0063AF", "#122B39"],
+      "ordinal": ["#00A767", "#36B7B4", "#179FDB", "#0063AF", "#243B5A"]
+    },
+    "axisX": {
+      "labelColor": "#122b39",
+      "tickColor": "#122b39",
+      "domainColor": "#122b39",
+      "domainOpacity": 0.5,
+      "gridOpacity": 0,
+      "labelFont": "Circular Std Book",
+      "labelAngle": 0,
+      "labelAlign": "center",
+      "labelFontSize": 11,
+      "labelPadding": 5,
+      "tickCount": 10,
+      "tickSize": 0,
+      "title": ""
+    },
+    "axisY": {
+      "labelColor": "#122b39",
+      "labelFont": "Circular Std Book",
+      "tickColor": "#122b39",
+      "domainColor": "#122b39",
+      "gridColor": "#122b39",
+      "gridDash": [1, 5],
+      "gridOpacity": 0.5,
+      "labelPadding": 5,
+      "labelFontSize": 11,
+      "domainOpacity": 0.5,
+      "tickSize": 0,
+      "title": null,
+      "titleAlign": "left",
+      "titleAngle": 0,
+      "titleBaseline": "bottom",
+      "titleColor": "#122b39",
+      "titleOpacity": 0.9,
+      "titleX": 0,
+      "titleY": -7
+    }
+  },
+
+"layer": [
+    {
+      "mark": {"type": "line"},
+      "encoding": {
+        "color": {
+          "field": "Country",
+          "legend": null,
+          "scale": {
+            "domain": [
+              "United Kingdom",
+              "France",
+              "Italy",
+              "Spain",
+              "Germany",
+              "Japan",
+              "Canada",
+              "United States"
+            ],
+            "range": [
+              "#001f3f",
+              "#4269d0",
+              "#efb118",
+              "#ff725c",
+              "#6cc5b0",
+              "#3ca951",
+              "#ff8ab7",
+              "#a463f2"
+            ]
+          },
+          "type": "nominal"
+        },
+        "size": {
+          "condition": {"test": "(datum.Country === 'United Kingdom')", "value": 2},
+          "value": 1.5
+        },
+        "strokeDash": {
+          "condition": {"test": "(datum.Country === 'United Kingdom')", "value": [0, 0]},
+          "value": [5, 2]
+        },
+        "x": {"field": "Year", "title": "", "type": "temporal"},
+        "y": {
+          "field": "Value",
+          "title": "",
+          "type": "quantitative",
+          "scale": {"domain": [0,280]}
+        }
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "dx": 5,
+        "dy": {
+          "expr": "{\"Italy\": -10, \"United States\": -8, \"Canada\": -15, \"United Kingdom\": 6, \"Spain\": 2, \"Germany\": -4,\"France\": -2,}[datum.Country]"
+        }
+      },
+      "transform": [
+        {
+          "filter":"year(datum.Year) == 2023"
+        }
+      ],
+      "encoding": {
+        "color": {
+          "field": "Country",
+          "legend": null,
+          "scale": {
+            "domain": [
+              "United Kingdom",
+              "France",
+              "Italy",
+              "Spain",
+              "Germany",
+              "Japan",
+              "Canada",
+              "United States"
+            ],
+            "range": [
+              "#001f3f",
+              "#4269d0",
+              "#efb118",
+              "#ff725c",
+              "#6cc5b0",
+              "#3ca951",
+              "#ff8ab7",
+              "#a463f2"
+            ]
+          },
+          "type": "nominal"
+        },
+        "size": {
+          "condition": {"test": "(datum.Country === 'United Kingdom')", "value": 14},
+          "value": 12
+        },
+        "text": {"field": "Country", "type": "nominal"},
+        "x": {"value": 450},
+        "y": {
+          "field": "Value",
+          "title": "",
+          "type": "quantitative",
+          "scale": {"domain": [0,280]}
+        }
+      }
+    }
+  ],
+
+  "data": {
+    "url":"https://raw.githubusercontent.com/andreacorreaj/GD_UK/main/Gross_Debt_Peers.csv"}
+  }
