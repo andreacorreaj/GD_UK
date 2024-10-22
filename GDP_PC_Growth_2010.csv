@@ -1,0 +1,113 @@
+﻿Country,Year,Value
+Canada,2010,100
+Canada,2011,102
+Canada,2012,103
+Canada,2013,104
+Canada,2014,106
+Canada,2015,106
+Canada,2016,106
+Canada,2017,108
+Canada,2018,109
+Canada,2019,110
+Canada,2020,103
+Canada,2021,108
+Canada,2022,110
+Canada,2023,108
+Germany,2010,100
+Germany,2011,106
+Germany,2012,106
+Germany,2013,106
+Germany,2014,108
+Germany,2015,109
+Germany,2016,110
+Germany,2017,113
+Germany,2018,114
+Germany,2019,115
+Germany,2020,110
+Germany,2021,114
+Germany,2022,115
+Germany,2023,114
+Spain,2010,100
+Spain,2011,99
+Spain,2012,96
+Spain,2013,95
+Spain,2014,96
+Spain,2015,100
+Spain,2016,103
+Spain,2017,106
+Spain,2018,108
+Spain,2019,109
+Spain,2020,97
+Spain,2021,103
+Spain,2022,108
+Spain,2023,109
+France,2010,100
+France,2011,102
+France,2012,102
+France,2013,102
+France,2014,102
+France,2015,103
+France,2016,104
+France,2017,106
+France,2018,107
+France,2019,109
+France,2020,100
+France,2021,107
+France,2022,109
+France,2023,109
+United Kingdom,2010,100
+United Kingdom,2011,100
+United Kingdom,2012,101
+United Kingdom,2013,102
+United Kingdom,2014,105
+United Kingdom,2015,106
+United Kingdom,2016,107
+United Kingdom,2017,110
+United Kingdom,2018,110
+United Kingdom,2019,112
+United Kingdom,2020,100
+United Kingdom,2021,108
+United Kingdom,2022,112
+United Kingdom,2023,111
+Italy,2010,100
+Italy,2011,101
+Italy,2012,97
+Italy,2013,94
+Italy,2014,94
+Italy,2015,94
+Italy,2016,96
+Italy,2017,97
+Italy,2018,99
+Italy,2019,100
+Italy,2020,92
+Italy,2021,100
+Italy,2022,104
+Italy,2023,105
+Japan,2010,100
+Japan,2011,100
+Japan,2012,102
+Japan,2013,104
+Japan,2014,104
+Japan,2015,106
+Japan,2016,107
+Japan,2017,109
+Japan,2018,110
+Japan,2019,109
+Japan,2020,105
+Japan,2021,108
+Japan,2022,110
+Japan,2023,113
+United States,2010,100
+United States,2011,101
+United States,2012,102
+United States,2013,104
+United States,2014,106
+United States,2015,108
+United States,2016,109
+United States,2017,111
+United States,2018,114
+United States,2019,116
+United States,2020,112
+United States,2021,119
+United States,2022,121
+United States,2023,123
