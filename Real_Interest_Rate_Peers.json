@@ -114,10 +114,10 @@
         },
         "x": {"field": "Year", "title": "", "type": "temporal"},
         "y": {
-          "field": "Value",
+          "field": "Real IR",
           "title": "",
           "type": "quantitative",
-          "scale": {"domain": [-1.5,1.5]}
+          "scale": {"domain": [-5,10]}
         }
       }
     },
@@ -127,7 +127,7 @@
         "align": "left",
         "dx": 5,
         "dy": {
-          "expr": "{\"Italy\": -2, \"United States\": 0, \"Canada\": -2, \"United Kingdom\": 7, \"Spain\": 2, \"Germany\": -4,\"France\": 5,\"Japan\": -2,}[datum.Country]"
+          "expr": "{\"Italy\": -2, \"United States\": 7, \"Canada\": 11, \"United Kingdom\": -10, \"Spain\": 5, \"Germany\": 5,\"France\": 9,\"Japan\": -2,}[datum.Country]"
         }
       },
       "transform": [
@@ -170,10 +170,10 @@
         "text": {"field": "Country", "type": "nominal"},
         "x": {"value": 450},
         "y": {
-          "field": "Value",
+          "field": "Real IR",
           "title": "",
           "type": "quantitative",
-          "scale": {"domain": [-1.5,1.5]},
+          "scale": {"domain": [-5,10]},
           "axis":{"labelExpr": "datum.value+'%'"}
         }
       }
